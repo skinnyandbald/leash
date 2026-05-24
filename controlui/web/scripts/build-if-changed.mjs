@@ -125,7 +125,7 @@ try {
   mkdirSync(outDir, { recursive: true })
 } catch {}
 
-run('bash', ['-lc', `set -euo pipefail; rm -rf /tmp/ui-out && mkdir -p /tmp/ui-out && cp -R out/. /tmp/ui-out/ && mkdir -p "${outDir}" && rm -rf "${outDir}"/* && cp -R /tmp/ui-out/. "${outDir}/"`], {
+run('bash', ['-c', `set -euo pipefail; rm -rf /tmp/ui-out && mkdir -p /tmp/ui-out && cp -R out/. /tmp/ui-out/ && mkdir -p "${outDir}" && rm -rf "${outDir}"/* && cp -R /tmp/ui-out/. "${outDir}/"`], {
   cwd: projectRoot,
 })
 
