@@ -1,18 +1,18 @@
 module github.com/strongdm/leash
 
-go 1.23.0
+go 1.25.0
 
 require (
 	github.com/cedar-policy/cedar-go v1.2.6
-	github.com/cilium/ebpf v0.19.0
+	github.com/cilium/ebpf v0.22.0
 	github.com/gorilla/websocket v1.5.3
-	golang.org/x/sys v0.35.0
+	golang.org/x/sys v0.43.0
 )
 
 require (
 	github.com/charmbracelet/bubbletea v0.25.0
 	github.com/charmbracelet/lipgloss v0.9.1
-	github.com/klauspost/compress v1.17.10
+	github.com/klauspost/compress v1.18.0
 	github.com/pelletier/go-toml/v2 v2.2.4
 	go.opentelemetry.io/otel v1.38.0
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.38.0
@@ -38,7 +38,7 @@ require (
 	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/text v0.3.8 // indirect
 )
 
