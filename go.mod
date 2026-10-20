@@ -1,6 +1,6 @@
 module github.com/strongdm/leash
 
-go 1.23.0
+go 1.24
 
 require (
 	github.com/cedar-policy/cedar-go v1.2.6
@@ -12,7 +12,7 @@ require (
 require (
 	github.com/charmbracelet/bubbletea v0.25.0
 	github.com/charmbracelet/lipgloss v0.9.1
-	github.com/klauspost/compress v1.17.10
+	github.com/klauspost/compress v1.18.7
 	github.com/pelletier/go-toml/v2 v2.2.4
 	go.opentelemetry.io/otel v1.38.0
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.38.0
